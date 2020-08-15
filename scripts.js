@@ -20,8 +20,6 @@ setInterval(function() {
     document.getElementById("clock").innerHTML = time;
   }
 
-
-
   time = `0${hour} : ${minutes} : ${seconds} pm`;
   document.getElementById("clock").innerHTML = time;
 
